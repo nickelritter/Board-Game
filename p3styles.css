@@ -1,0 +1,189 @@
+body {
+	 background-color: #da9341;
+	 font: Verdana;
+	 font-size: 100%;
+	 }
+	 
+h1 	 {
+	 color: #424242;
+	 text-align: center;
+	 font-style: underline;
+	 }
+	 
+h2 	 {
+	 font-style: 8pt;
+	 }
+	 
+h3 	 {
+	 text-align: center;
+	 font-size: 28pt;
+	 font-style: underline;
+	 color: black;
+	 }
+
+.LoreBox {
+	 position: absolute;
+	 top: 420px;
+	 left: 30px;
+	 width: 850px;
+	 background-color: #005189;
+	 border-width: 8px;
+	 border-style: outset;
+	 border-color: #898c7a;
+	 padding: 10px;
+	 margin: 5px;
+	 font-weight: bold;
+	 font-size: 18pt;
+	 color: black;
+	 }
+	 
+.sect1 {
+	 font-size: 16pt;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	 margin-top: 10px;
+	 background-color: #ffcc3b;
+	 padding: 15px;
+	 width: 90%;
+	 min-height: 100%;
+	 }
+	 
+.sect2 {
+	 font-size: 16pt;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	 margin-top: 10px;
+	 background-color: #9ba92b;
+	 padding: 15px;
+	 width: 90%;
+	 min-height: 100%;
+	 }
+	 
+.sect3 {
+	 font-size: 16pt;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	 margin-top: 10px;
+	 background-color: #6c8f8b;
+	 padding: 15px;
+	 width: 90%;
+	 min-height: 100%;
+	 }
+	 
+.sect4 {
+	 font-size: 16pt;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	 margin-top: 10px;
+	 background-color: #a85a38;
+	 padding: 15px;
+	 width: 90%;
+	 min-height: 100%;
+	 }
+	 
+.Arch {
+	 font-size: 16pt;
+	 margin-left: 10px;
+	 margin-right: 10px;
+	 margin-top: 10px;
+	 background-color: gray;
+	 padding: 15px;
+	 width: 90%;
+	 min-height: 100%;
+	 }
+	 
+
+
+a:link {
+	 color: black;
+}
+
+a:visited {
+	 color: maroon;
+}	
+
+a:hover {
+		background-color: #443778;
+		color: #3282c3;
+		} 
+	 
+
+
+ul 	 {
+	 font-style: bold;
+	 }
+
+li 	 {
+	 font-style: 20pt;
+
+	 }
+
+p 	 {
+	 margin-top: 5px;
+	 margin-bottom: 15px;
+	 font-family: Ariel;
+	 font-size: 14pt;
+	 }
+
+
+
+	
+th   {
+	 color: blue;
+	 font-weight: bolder;
+	 font-style: italic;
+}	
+
+
+.FloatingBox {
+	 float: left;
+	 width: 300px;
+	 background-color: #006747;
+	 border-width: 8px;
+	 border-style: outset;
+	 border-color: gold;
+	 padding: 10px;
+	 margin: 5px;
+	 font-weight: bold;
+	 font-size: 18pt;
+	 color: white;
+}
+	
+.FixedBox {
+	 position: absolute;
+	 top: 80px;
+	 left: 60px;
+	 width: 600px;
+	 background-color: #005189;
+	 border-width: 8px;
+	 border-style: outset;
+	 border-color: #898c7a;
+	 padding: 10px;
+	 margin: 5px;
+	 font-weight: bold;
+	 font-size: 18pt;
+	 color: #A8ABAE;
+	 }
+
+
+}
+
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

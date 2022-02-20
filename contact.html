@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Contact</title>
+<link rel="stylesheet" href="p3styles.css"/>
+
+<script>
+function processForm()
+{
+	var e = document.thisForm.fullname.value + "\n" + document.thisForm.email.value
+	e = e + "\n\n" + document.thisForm.subject.value + "\n"
+	
+	var p = ""
+	switch(document.thisForm.adventurer.value)
+	 {
+		case "none":
+			p = "No adventurer selected..."
+			break
+		case "Archeologist":
+			p = "The Archeologist is number 1"
+			break
+		case "Climber":
+			p = "The Climber is the best."
+			break
+		case "Explorer":
+			p = "Explorer all the way!"
+			break
+		case "Meterologist":
+			p = "The Meterologist is my favorite."
+			break
+		case "Navigator":
+			p = "I like the Navigator best."
+			break
+		case "Water Carrier":
+			p = "I perfer the Water Carrier."
+			break
+	}
+	e = e + "Adventurer: " + p + "\n\n" + document.thisForm.message.value
+	
+	document.thisForm.sentMessage.value = e
+}
+</script>
+
+</head>
+	
+<body>
+<center>
+<img src="pics/ship.jpg" width="800" alt="Full Group Pic"></img>
+
+<table border>
+<tr><th><a href="https://gamewright.com/product/Forbidden-Desert">Click Here for Official Site</a></th></tr>
+</table>
+</center>
+<br><br>
+
+<table border>
+<tr><th colspan="2">Where to Buy</th></tr>
+<tr><td>Amazon.com</td>  <td> $26.95</td></tr>
+<tr><td>Ebay listings</td>  <td>From $33.82</td></tr>
+<tr><td>CoolStuffInc.com</td>  <td> Out of Stock</td></tr>
+</table>
+<br><br><br>
+
+<form name="thisForm">
+<table>
+
+<tr>
+<th colspan="2">Use This Form to Contact Us</th>
+</tr>
+
+<tr>
+<td>Fullname: </td>  <td><input type="text" size="40" name="fullname" ></td>
+</tr>
+
+<tr>
+<td>E-mail Address: </td>  <td><input type="text" size="40" name="email" ></td>
+</tr>
+
+<tr>
+<td>Subject: </td>  <td><input type="text" size="40" name="subject" ></td>
+</tr>
+
+<tr>
+<td>Favorite Adventurer: </td> 
+
+<td>
+<select name="adventurer" id="adventurer" >
+	<option value="none">..Choose an adventurer..</option>
+	<option value="Archeologist">The Archeologist is number 1</option>
+	<option value="Climber">The Climber is the best.</option>
+	<option value="Explorer">Explorer all the way!</option>
+	<option value="Meterologist">The Meterologist is my favorite.</option>
+	<option value="Navigator">I like the Navigator best.</option>
+	<option value="Water Carrier">I perfer the Water Carrier.</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td valign="top"> Message: </td> <td><textarea name="message" rows="4" cols="40"></textarea></td>
+</tr>
+
+<tr>
+<td><input type="reset" value="Clear Form"></td>
+<td><input type="button" value="Send Message" onClick="processForm()"></td>
+</tr>
+
+<tr> <td><br><br></td>
+</tr>
+
+<tr>
+<th colspan="2">If your message passes inspection, it will be displayed below:</th>
+</tr>
+
+<tr>
+<td valign="top">Message Sent:</td>
+<td><textarea name="sentMessage" rows="12" cols="40" readonly></textarea></td>
+</tr>
+
+</table>
+</form>
+
+
+</body>
+</html>
